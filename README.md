@@ -22,13 +22,18 @@ sliding_window.py script.
 
 The effect of the used augmentations can be seen in the following examples:
 ![alt text](./examples/sw.gif)
+
 Images on the left hand side are the original images and images on the right
 hand side show the image passed through the augmentation pipeline.
+
 Using the network on bigger images with a sliding window approach leads to the
 following results:
 ![alt text](./examples/sw.gif)
+
 The higher the number related color in the overlay the closer is that area to a crack.
+
 In order to visualize the most important pixels for the decision process of the network two gradient-based explainability methods implemented. The left heatmap is created by the vanilla gradient method and the right by the guided backpropagation method:
+
 ![alt text](./examples/saliency.gif)
 
 ## References
