@@ -1,3 +1,6 @@
+""" Visualize training in order to detect potential overfitting and evaluate
+    the training progress. """
+
 import numpy as np
 import json
 import matplotlib.pyplot as plt
