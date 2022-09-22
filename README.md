@@ -21,7 +21,7 @@ sliding_window.py script.
 ## Examples
 
 The effect of the used augmentations can be seen in the following examples:
-![alt text](./examples/sw.gif)
+![alt text](./examples/aug.gif)
 
 Images on the left hand side are the original images and images on the right
 hand side show the image passed through the augmentation pipeline.
