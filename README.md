@@ -6,8 +6,8 @@ This code can be used in order to train and evaluate a neural network
 (e.g. ResNet18, ResNet50) on images with binary classification. It was used on
 an image data set [[1]](#1) with 40000 labeled concrete images.
 In order to enhance the performance the training pipeline features data
-augmentation to further increase amount of training data and get bigger variety.
-Lastly vanilla gradient and guided backpropagation are used to get insights on
+augmentation to further increase the amount of training data and get bigger variety.
+Lastly, vanilla gradient and guided backpropagation are used to get insights on
 the decision process of the network.
 
 ## How to use
@@ -30,9 +30,9 @@ Using the network on bigger images with a sliding window approach leads to the
 following results:
 ![alt text](./examples/sw.gif)
 
-The higher the number related color in the overlay the closer is that area to a crack.
+The higher the number related to the color in the overlay, the closer is that area to a crack.
 
-In order to visualize the most important pixels for the decision process of the network two gradient-based explainability methods implemented. The left heatmap is created by the vanilla gradient method and the right by the guided backpropagation method:
+In order to visualize the most important pixels for the decision process of the network two gradient-based explainability methods are implemented. The left heatmap is created by the vanilla gradient method and the right by the guided backpropagation method:
 
 ![alt text](./examples/saliency.gif)
 
